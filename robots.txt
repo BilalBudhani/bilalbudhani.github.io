@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://BilalBudhani.github.io/sitemap.xml 
+Sitemap: http://blog.bilalbudhani.me/sitemap.xml 
