@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Entrepreneurship | Bilal Budhani]]></title>
   <link href="http://blog.bilalbudhani.me/categories/entrepreneurship/atom.xml" rel="self"/>
   <link href="http://blog.bilalbudhani.me/"/>
-  <updated>2013-07-28T09:06:15+05:30</updated>
+  <updated>2013-08-30T17:16:53+05:30</updated>
   <id>http://blog.bilalbudhani.me/</id>
   <author>
     <name><![CDATA[BilalBudhani]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Open letter to Mumbai Startups from an Interviewee]]></title>
+    <link href="http://blog.bilalbudhani.me/Entrepreneurship/2013/08/19/an-open-letter-to-mumbai-startups-from-an-interviewee/"/>
+    <updated>2013-08-19T21:16:00+05:30</updated>
+    <id>http://blog.bilalbudhani.me/Entrepreneurship/2013/08/19/an-open-letter-to-mumbai-startups-from-an-interviewee</id>
+    <content type="html"><![CDATA[<p>Dear Mumbai Startups,</p>
+
+<p>A few days back I have been interviewed by one of the well known startup based out of Mumbai. The interview was so disgraceful and meaningless, I wasted my 9 hours of time/productivity (Travelling + I was coding for straight 7 hours on the problem which was being emailed to me) and they didn&rsquo;t even borthered to meet me for 15mins in person. Let me describe the scene below a bit, I will try to keep it really short though. <!-- more --></p>
+
+<h3>Background</h3>
+
+<p>One of my friend is working for this startup and so he asked me If I was interested in joining them as well. I was looking for a change so I mailed him couple of my open source projects, personal website and blog link, youtube talk links and link to my LinkedIn profile. He got back to me with an unexpected response stating that company only wants your resume in PDF format. I thought for a while and then I exported my linkedin profile to pdf which quench them.</p>
+
+<p>After that, I was getting pushed by one their employee to come for an interview at the earliest. Since I was stuck with some of my personal commitments and didn&rsquo;t wanted to miss the shot for such a well profiled startup without putting some good amount of efforts to make myself prepared. So, I was not confirming any date with them. Finally, Last week Saturday 11:30 am I got a date from them for the interview.</p>
+
+<h3>The Scene</h3>
+
+<p>When I reached on their specified time I found that I&rsquo;m accompanied by 3 more fellow interviewee bagging their heads with paper and pen on some geometric problem. I got certain that I&rsquo;ll be in the same situation soon. Nevertheless, I was expecting some initial introduction and greetings but without even uttering a single word one their employee (who was immediately assigned to me for an interview) handed over me a pen and paper. He then drew a diagram (I googled it and found that diagram was wrong) and told me to divide it into 4 equal parts(Dude! Seriously?). However, I gave it a try but all my attempts were rejected one by one. Finally, That guy showed me how solve the problem (He took 3-4 attempts himself to get it right).</p>
+
+<p>After this silly task I got to hear some words from them which has &ldquo;Problems have been emailed to me&rdquo;. I was quite happy to know that now I can show off my coding skills and can change their prespective. Stay with me here&hellip; They made me code for straight 6-7 hours approx. mailing one after another problem. As soon as I was solving the problem they were sending newer, lengthier and complex problem without even asking me if I&rsquo;ve any experience in that category. Anyway, I took the challange and gave my 100% to solve those problems and I did well. I was able to hack into the solutions much faster and nicer way (I have the original gist of the problem with revisions). Also, In the middle I was iterating/refactoring my previous tasks' code as per their inputs.</p>
+
+<p>At this point I was done coding 4-5 hours on their tasks and was not expecting any more task from them. But, my prediction went wrong and I got a new task. This time it was much more lengthier and complex (Basically a Real time rails app). I <a href="https://twitter.com/BilalBudhani/status/360730923270021120">knew</a> <a href="https://twitter.com/supportbee/status/362529988194476032">how to do this task completely</a> and I explained it on a paper too to make my positive impression on them but, They want it to be coded. I then started coding on it and made a real time frontend interface(which took me another hour or so). Backend work was still remaining but I was completely exhausted and was not able to code anymore. So, I called up the guy whom I was assigned and I said &ldquo;I&rsquo;m exhausted and can&rsquo;t code anymore&rdquo; to which he had nothing to respond. I was able to see the sign of negativity on his face. He gave me an expression to just leave but I told him that I&rsquo;m still up tech or personal questions (trying my best to ).</p>
+
+<p><strong>Note:</strong> They had the courtesy to ask me water and lunch.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Star Young Entrepreneur of the year 2013]]></title>
