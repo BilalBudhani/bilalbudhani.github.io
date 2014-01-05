@@ -17,18 +17,18 @@
         <lastmod>2014-01-05T18:26:40+05:30</lastmod>
     </url>
     <url>
-        <loc>
-            http://blog.bilalbudhani.me/AngularJS/2013/09/23/testing-angularjs-in-rails-4-dot-0-using-karma/
-        </loc>
-        <lastmod>2014-01-05T18:26:32+05:30</lastmod>
-    </url>
-    <url>
         <loc>http://blog.bilalbudhani.me/2014/01/05/how-was-my-2013-and-whats-next/</loc>
         <lastmod>2014-01-05T18:25:28+05:30</lastmod>
     </url>
     <url>
         <loc>http://blog.bilalbudhani.me/blog/archives/</loc>
         <lastmod>2014-01-05T18:26:40+05:30</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://blog.bilalbudhani.me/draft/2013-09-23-testing-angularjs-in-rails-4-dot-0-using-karma.html
+        </loc>
+        <lastmod>2014-01-05T18:30:34+05:30</lastmod>
     </url>
     <url>
         <loc>http://blog.bilalbudhani.me/</loc>
