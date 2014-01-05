@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Blog Archives - Bilal Budhani</title>
+	<title>Testing AngularJS in Rails using Karma - Bilal Budhani</title>
 	<meta name="author" content="BilalBudhani">
 
 	
-	<meta name="description" content="2014 Jan 5 Comments How was my 2013 and whats next 2013 Sep 23 AngularJS Comments Testing AngularJS in Rails using Karma Aug 30 Comments 3 steps to &hellip;">
+	<meta name="description" content="Testing AngularJS in Rails Using Karma Introduction This post explains how to setup karma and get started with testing your Angular application in &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -17,7 +17,7 @@
 
 	<link href="/atom.xml" rel="alternate" title="Bilal Budhani" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://blog.bilalbudhani.me/blog/archives/">
+	<link rel="canonical" href="http://blog.bilalbudhani.me/AngularJS/2013/09/23/testing-angularjs-in-rails-4-dot-0-using-karma/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -91,119 +91,65 @@
 				
 			
 			<div class="mid-col-container">
-				<div id="content" class="inner"><div itemscope itemtype="http://schema.org/Blog">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">Testing AngularJS in Rails Using Karma</h1>
+	<div class="entry-content" itemprop="articleBody"><h2>Introduction</h2>
 
-	
+<p>This post explains how to setup <a href="karma-runner.github.io">karma</a> and get started with testing your <a href="angularjs.org">Angular</a> application in Rails 4.0 framework.</p>
+
+<h2>What you should already have in your system</h2>
+
+<ul>
+<li>ruby 1.9.3+</li>
+<li>Rails 3.2+</li>
+<li>Node/NPM</li>
+</ul>
 
 
-	
-	
-	<section class="archives"><h1 class="year">2014</h1>
+<p>Create a rails project</p>
 
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2014-01-05T18:17:00+05:30" itemprop="datePublished">Jan  5</time></span>
-		<br>
-		<span class="tags">
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rails new angularjs_karma_rails --skip-active-record -T</span></code></pre></td></tr></table></div></figure>
 
-</span>
-	    
-	    <span class="comments"><a href="/2014/01/05/how-was-my-2013-and-whats-next/#disqus_thread">Comments</a></span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/2014/01/05/how-was-my-2013-and-whats-next/">How was my 2013 and whats next</a></h1>
+
+<p>Initialize npm</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>npm init .</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>app name (Enter)</li>
+<li>version: 0.0.1 (optional)</li>
+<li>description: (optional)</li>
+<li>entry point: (enter)
+*</li>
+</ul>
+
+</div>
+
 </article>
 
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
 	
-
-
+	
+	<a class="addthis_button_tweet"></a>
 	
 	
-		</section>
-	
-	<section class="archives"><h1 class="year">2013</h1>
-
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2013-09-23T19:18:00+05:30" itemprop="datePublished">Sep 23</time></span>
-		<br>
-		<span class="tags">
-
-
-	<a class='category' href='/categories/angularjs/'>AngularJS</a>
-
-
-</span>
-	    
-	    <span class="comments"><a href="/AngularJS/2013/09/23/testing-angularjs-in-rails-4-dot-0-using-karma/#disqus_thread">Comments</a></span>
-	    
+	<a class="addthis_counter addthis_pill_style"></a>
 	</div>
-	<h1 class="title" itemprop="name"><a href="/AngularJS/2013/09/23/testing-angularjs-in-rails-4-dot-0-using-karma/">Testing AngularJS in Rails using Karma</a></h1>
-</article>
-
-	
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2013-08-30T16:05:00+05:30" itemprop="datePublished">Aug 30</time></span>
-		<br>
-		<span class="tags">
 
-</span>
-	    
-	    <span class="comments"><a href="/2013/08/30/3-steps-to-vim-from-sublime-text-2/#disqus_thread">Comments</a></span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/2013/08/30/3-steps-to-vim-from-sublime-text-2/">3 steps to Vim from Sublime Text 2</a></h1>
-</article>
-
-	
-
-
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2013-01-13T11:25:09+05:30" itemprop="datePublished">Jan 13</time></span>
-		<br>
-		<span class="tags">
-
-
-	<a class='category' href='/categories/entrepreneurship/'>Entrepreneurship</a>
-
-
-</span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/Entrepreneurship/2013/01/13/star-young-entrepreneur-of-the-year-2013/">Star Young Entrepreneur of the year 2013</a></h1>
-</article>
-
-	
-
-
-	
-	
-		</section>
-	
-	<section class="archives"><h1 class="year">2012</h1>
-
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2012-12-19T09:37:59+05:30" itemprop="datePublished">Dec 19</time></span>
-		<br>
-		<span class="tags">
-
-
-	<a class='category' href='/categories/entrepreneurship/'>Entrepreneurship</a>
-
-
-</span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/Entrepreneurship/2012/12/19/my-experience-with-in50hrs-pune-event/">My experience with in50hrs pune event</a></h1>
-</article>
-
-  </section>
-</div></div>
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
 			</div>
 			<footer id="footer" class="inner"><p>
   Copyright &copy; 2014 - BilalBudhani -
@@ -224,7 +170,10 @@ Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Sha
       var disqus_shortname = 'bilalbudhani-blog';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.bilalbudhani.me/AngularJS/2013/09/23/testing-angularjs-in-rails-4-dot-0-using-karma/';
+        var disqus_url = 'http://blog.bilalbudhani.me/AngularJS/2013/09/23/testing-angularjs-in-rails-4-dot-0-using-karma/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
