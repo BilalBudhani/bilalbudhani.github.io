@@ -4,7 +4,7 @@
   <title><![CDATA[Bilal Budhani]]></title>
   <link href="http://blog.bilalbudhani.me/atom.xml" rel="self"/>
   <link href="http://blog.bilalbudhani.me/"/>
-  <updated>2014-01-05T18:34:21+05:30</updated>
+  <updated>2014-02-02T17:31:07+05:30</updated>
   <id>http://blog.bilalbudhani.me/</id>
   <author>
     <name><![CDATA[BilalBudhani]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Freshers guide to get a tech job in startups]]></title>
+    <link href="http://blog.bilalbudhani.me/2014/02/02/freshers-guide-to-get-a-tech-job-in-startups/"/>
+    <updated>2014-02-02T14:40:00+05:30</updated>
+    <id>http://blog.bilalbudhani.me/2014/02/02/freshers-guide-to-get-a-tech-job-in-startups</id>
+    <content type="html"><![CDATA[<p>There has been spike in no. of tech startups in the ecosystem since past few years, which is certainly a good sign but, Unfortunately there aren&rsquo;t enough good developers available to take this opportunity especially in Mumbai. Besides, We&rsquo;ve talented freshers coming out but they&rsquo;ve no idea what are the requirement of startups and how do they earn a job.</p>
+
+<p>I&rsquo;ve complied some points from my experience in working with startups. Following these will not only cultivate an urge for being a good developer but also give some brownie points in startups hiring process.</p>
+
+<!-- more -->
+
+
+<p><strong>No Java or .Net:</strong> Startups are scared of these two languages especially Java. Let me tell you why, These languages comes with huge learning cost, maintenance, licensing and they&rsquo;re relatively slow due to their enterprisy nature which makes them evil for newly started companies. On the other hand, These are not developer friendly languages. So, just move on.</p>
+
+<p><strong>Linux:</strong> Good developers loves and use good tools. Linux inarguably best tool available and you must start loving it. Infact, start using it on daily basis. Leave that sloppy and fancy Windows behind, it ain&rsquo;t gonna help you anytime soon.</p>
+
+<p><strong>Initial choice of language:</strong> Obviously not Java or .Net. Look for a language which has a less learning curve and developer friendly. I would suggest to go with <a href="https://www.ruby-lang.org/en/">Ruby</a>, <a href="http://www.python.org/">Python</a> or <a href="http://www.php.net/">PHP</a>. They&rsquo;re universally supported and more importantly they&rsquo;re widely accepted in startups. Don&rsquo;t get in to this &ldquo;what-should-i-learn&rdquo; mentality at the moment just pick any of them and LEARN Dammit!</p>
+
+<p><strong>Books / eBooks:</strong> Books are inevitable, no matter how hard you want to avoid them. It took me a while to admit but eventually I became a fan. Find some nice tech related books and make sure you not only read them but you also follow their advice. I strongly advice &ldquo;The Pragmatic Programmer&rdquo; to start with, it will practically change your approach towards the problem as a programmer.</p>
+
+<p><strong>Meetups / Hackathons:</strong> Don&rsquo;t just be a passive learner and stick to your computer. Meeting like minded people and interacting with them is equally important. Find out tech / startups meetups scheduled and attend them without fail. These meetups will help you find your next job more rapidly then any other job listing sites. We (I and other fellow Rubyist) try to organise monthly Ruby meetup named as <a href="https://groups.google.com/forum/#!forum/mrug">Mumbai Ruby Group</a>. Join us if you interested.</p>
+
+<p><strong>Follow Techies:</strong> Are you on Twitter? or Quora? or StackOverflow? No? You&rsquo;ve a problem there. Start using these sites actively. Follow local techies, national or international programming rockstars and tech related discussions. This will not only keep you motivated but also gives you enormous amount of bleeding edge knowledge.</p>
+
+<p><strong>Find a pet project:</strong> Never start learning a programming language from their documentation you will end up no where. Find a sweet small little project and then think about how would you accomplish it your language of choice. It can be automating your file download, email auto responder etc. keep it really small, simple and personal. Target yourself, it should be something you want to use.</p>
+
+<p><strong>Github:</strong> <a href="https://www.github.com">Github</a> is haven for developers. I would like you to watch this video <a href="https://www.youtube.com/watch?v=l_T3XEgXl14">Github is changing the world</a>. Open source your pet project and share them with others. A working programme is lot more better than a fancy resume.</p>
+
+<p>I would like to hear feedbacks from you on this or if you want some personal advice feel free to reach out to me on twitter.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How was my 2013 and whats next]]></title>
