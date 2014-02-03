@@ -1,14 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>
-            http://blog.bilalbudhani.me/Entrepreneurship/2012/12/19/my-experience-with-in50hrs-pune-event/
-        </loc>
-        <lastmod>2014-01-05T18:26:36+05:30</lastmod>
+        <loc>http://blog.bilalbudhani.me/2012/12/19/my-experience-with-in50hrs-pune-event/</loc>
+        <lastmod>2014-02-03T18:00:43+05:30</lastmod>
     </url>
     <url>
         <loc>
-            http://blog.bilalbudhani.me/Entrepreneurship/2013/01/13/star-young-entrepreneur-of-the-year-2013/
+            http://blog.bilalbudhani.me/2013/01/13/star-young-entrepreneur-of-the-year-2013/
         </loc>
         <lastmod>2014-01-05T18:26:38+05:30</lastmod>
     </url>
@@ -28,7 +26,7 @@
     </url>
     <url>
         <loc>http://blog.bilalbudhani.me/blog/archives/</loc>
-        <lastmod>2014-02-02T17:30:15+05:30</lastmod>
+        <lastmod>2014-02-03T18:00:43+05:30</lastmod>
     </url>
     <url>
         <loc>
@@ -38,7 +36,7 @@
     </url>
     <url>
         <loc>http://blog.bilalbudhani.me/</loc>
-        <lastmod>2014-02-02T17:30:15+05:30</lastmod>
+        <lastmod>2014-02-03T18:00:43+05:30</lastmod>
     </url>
     <url>
         <loc>http://blog.bilalbudhani.me/robots.txt</loc>
