@@ -4,7 +4,7 @@
 
 url: http://blog.bilalbudhani.me
 title: Bilal Budhani
-subtitle: 
+subtitle:
 author: BilalBudhani
 simple_search: http://google.com/search
 description: "♥ Open Source, Rubyist, JavaScript, Entrepreneur, Loves Startups, Geek, ADHD survivor."
@@ -27,7 +27,7 @@ email: bilalbudhani@gmail.com
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
