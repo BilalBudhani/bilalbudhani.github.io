@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>BilalBudhani</title>
+ <link href="http://bilalbudhani.me/atom.xml" rel="self"/>
+ <link href="http://bilalbudhani.me/"/>
+ <updated>2015-11-11T15:00:15+05:30</updated>
+ <id>http://bilalbudhani.me</id>
+ <author>
+   <name>Bilal Budhani</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Shipped my first Ember production app in a month</title>
+   <link href="http://bilalbudhani.me/2015/02/24/shipped-my-first-ember-production-app-in-a-month/"/>
+   <updated>2015-02-24T00:00:00+05:30</updated>
+   <id>http://bilalbudhani.me/2015/02/24/shipped-my-first-ember-production-app-in-a-month</id>
+   <content type="html">&lt;p&gt;Today we shipped &lt;a href=&quot;www.crowdfireapp.com&quot;&gt;Crowdfire&lt;/a&gt; which we’ve been working on since a month. The dashboard is completely written in Ember using Ember CLI and deployed to Amazon S3 keeping it totally independent of the backend.&lt;/p&gt;
+
+&lt;p&gt;To give you more context, I joined Crowdfire (formerly JustUnfollow) team in the mid December last year. Our immediate goal for 2015 was to rebrand and more importantly to rewrite the existing web interface which was serving our users since past 5 years.&lt;/p&gt;
+
+&lt;p&gt;Ember is not so common in JavaScript dev community here in Mumbai or Bangalore. There’s quite a buzz around ReactJS. However, Ember was on my list since long and their roadmap is pretty concrete in terms of guideline, improvements, release cycle etc. I’ve done production apps on Backbone and AngularJS as well where latter seems to be very flaky in their future roadmap and former is way too basic in its offering respectively. Also, Our team had few months of experience in AngularJS and we already did some of the ground work for kick starting the project. But, finally after some convincing we took a decision to go with Ember rather than sticking around with AngularJS.&lt;/p&gt;
+
+&lt;p&gt;While starting up with Ember there are bunch of resources on the internet which gets you started with the framework but most of them share only half-truth and can be really painful in learning phase. Ember has a steep learning curve which can drive you crazy while building your real world web application. I would suggest, better grab Ember-CLI 101 ebook and RTFM. These two resource definitely turned out to be great companion while getting my head around the framework.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I’m glad we chose Ember. Our team is having a good time so far.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ember is a solid and robust for building web applications. Moreover, if you’re a &lt;a href=&quot;http://rubylang.org/&quot;&gt;Ruby&lt;/a&gt; and &lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Rails&lt;/a&gt; fan like me then you will completely fall in love again with frontend development while using the framework. It has all the goodness of both with some extra sugar which takes the whole web application development at another level of fun and it does get better with every release. Thanks to the amazing team behind it and the awesome community, IMO Ember is changing the way web applications are built.&lt;/p&gt;
+
+&lt;p&gt;One of the mistake I’ve seen new devs in Ember make is they still think in “previously used framework” or “Plain JavaScript” way. This should not be the case while writing in Ember. Ember solves the problem is its own way. Unless you embrace “think in Ember” philosophy you won’t be able to reach the zen of it.&lt;/p&gt;
+
+&lt;p&gt;Good luck. Ping me on &lt;a href=&quot;http://twitter.com/BilalBudhani&quot;&gt;@BilalBudhani&lt;/a&gt; if you’ve any questions for me.&lt;/p&gt;
+
+&lt;p&gt;P.S: I wrote a small plugin on Ember-CLI for oh-my-zsh &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ember-cli&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Freshers guide to get a tech job in startups</title>
+   <link href="http://bilalbudhani.me/2014/02/02/freshers-guide-to-get-a-tech-job-in-startups/"/>
+   <updated>2014-02-02T14:40:00+05:30</updated>
+   <id>http://bilalbudhani.me/2014/02/02/freshers-guide-to-get-a-tech-job-in-startups</id>
+   <content type="html">&lt;p&gt;There has been spike in no. of tech startups in the ecosystem since past few years, which is certainly a good sign but, Unfortunately there aren&amp;#39;t enough good developers available to take this opportunity especially in Mumbai. Besides, We&amp;#39;ve talented freshers coming out but they&amp;#39;ve no idea what are the requirement of startups and how do they earn a job.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve complied some points from my experience in working with startups. Following these will not only cultivate an urge for being a good developer but also give some brownie points in startups hiring process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No Java or .Net:&lt;/strong&gt; Startups are scared of these two languages especially Java. Let me tell you why, These languages comes with huge learning cost, maintenance, licensing and they&amp;#39;re relatively slow due to their enterprisy nature which makes them evil for newly started companies. On the other hand, These are not developer friendly languages. So, just move on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt; Good developers loves and use good tools. Linux inarguably best tool available and you must start loving it. Infact, start using it on daily basis. Leave that sloppy and fancy Windows behind, it ain&amp;#39;t gonna help you anytime soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Initial choice of language:&lt;/strong&gt; Obviously not Java or .Net. Look for a language which has a less learning curve and developer friendly. I would suggest to go with &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt;, &lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; or &lt;a href=&quot;http://www.php.net/&quot;&gt;PHP&lt;/a&gt;. They&amp;#39;re universally supported and more importantly they&amp;#39;re widely accepted in startups. Don&amp;#39;t get in to this &amp;quot;what-should-i-learn&amp;quot; mentality at the moment just pick any of them and LEARN Dammit!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Books / eBooks:&lt;/strong&gt; Books are inevitable, no matter how hard you want to avoid them. It took me a while to admit but eventually I became a fan. Find some nice tech related books and make sure you not only read them but you also follow their advice. I strongly advice &amp;quot;The Pragmatic Programmer&amp;quot; to start with, it will practically change your approach towards the problem as a programmer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meetups / Hackathons:&lt;/strong&gt; Don&amp;#39;t just be a passive learner and stick to your computer. Meeting like minded people and interacting with them is equally important. Find out tech / startups meetups scheduled and attend them without fail. These meetups will help you find your next job more rapidly then any other job listing sites. We (I and other fellow Rubyist) try to organise monthly Ruby meetup named as &lt;a href=&quot;https://groups.google.com/forum/#!forum/mrug&quot;&gt;Mumbai Ruby Group&lt;/a&gt;. Join us if you interested.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Follow Techies:&lt;/strong&gt; Are you on Twitter? or Quora? or StackOverflow? No? You&amp;#39;ve a problem there. Start using these sites actively. Follow local techies, national or international programming rockstars and tech related discussions. This will not only keep you motivated but also gives you enormous amount of bleeding edge knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Find a pet project:&lt;/strong&gt; Never start learning a programming language from their documentation you will end up no where. Find a sweet small little project and then think about how would you accomplish it your language of choice. It can be automating your file download, email auto responder etc. keep it really small, simple and personal. Target yourself, it should be something you want to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github:&lt;/strong&gt; &lt;a href=&quot;https://www.github.com&quot;&gt;Github&lt;/a&gt; is haven for developers. I would like you to watch this video &lt;a href=&quot;https://www.youtube.com/watch?v=l_T3XEgXl14&quot;&gt;Github is changing the world&lt;/a&gt;. Open source your pet project and share them with others. A working programme is lot more better than a fancy resume.&lt;/p&gt;
+
+&lt;p&gt;I would like to hear feedbacks from you on this or if you want some personal advice feel free to reach out to me on twitter.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>3 steps to Vim from Sublime Text 2</title>
+   <link href="http://bilalbudhani.me/2013/08/30/3-steps-to-vim-from-sublime-text-2/"/>
+   <updated>2013-08-30T16:05:00+05:30</updated>
+   <id>http://bilalbudhani.me/2013/08/30/3-steps-to-vim-from-sublime-text-2</id>
+   <content type="html">&lt;p&gt;I&amp;#39;ve been using Sublime Text 2 since quite a while now and really enjoy spending my most of the time playing around code with it. Since I&amp;#39;ve a PHP background (where I used to code on Netbeans) I was not motivated to use use on Terminal based editors. However, I gave a try to switch to Vim few months back but the situation was too much demanding at that time. I was learning couple of other new technologies where I didn&amp;#39;t wanted them to suffer/compromise and avoided one more constrain on my brain to use Vim. &amp;lt;!-- more --&amp;gt; So, I stood beside Sublime Text 2 and it continued to be my IDE in that struggling period. Until recently, I came across &lt;a href=&quot;http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/&quot;&gt;this great article&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/wycats&quot;&gt;Yehuda Katz&lt;/a&gt; which convinced me to give Vim another good try.&lt;/p&gt;
+
+&lt;p&gt;This is the basic setup I did to get started using Vim (on MacOSX)&lt;/p&gt;
+
+&lt;h3&gt;Setting up MacVim&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Install macvim using homebrew.
+&lt;code&gt;
+brew install macvim
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;After installing macvim, I installed &lt;a href=&quot;https://github.com/carlhuda/janus&quot;&gt;janus-bootstrap&lt;/a&gt; which automatically installs and configures required plugins.
+&lt;code&gt;
+curl -Lo- https://bit.ly/janus-bootstrap | bash
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;(Optional) Setting up a nice colorscheme is important. You should checkout &lt;a href=&quot;http://ethanschoonover.com/solarized&quot;&gt;solarized&lt;/a&gt; it has elegant colors which makes me feel nice while working. Fortunately, Janus has solarized built-in I just activated it. (BTW, my iTerm2 also has this same colorscheme)
+&lt;code&gt;
+echo &amp;#39;color solarized&amp;#39;  &amp;gt;&amp;gt; ~/.vimrc.after
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Square has open sourced their in house vim configuration more info &lt;a href=&quot;http://corner.squareup.com/2013/08/fly-vim-first-class.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bingo!&lt;/strong&gt; I&amp;#39;m done with configuring vim with all the essential plugins out there within 3 steps. But, Not to forget Vim is not done until you know some required shortcuts. I&amp;#39;ve compiled the list for my quick reference. Ofcourse, They&amp;#39;re available on the internet too.&lt;/p&gt;
+
+&lt;h3&gt;List of Not to forget Vim Shortcuts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;:q!&lt;/code&gt; quits the file and discard the changes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:wq&lt;/code&gt; saves changes and quits the current file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\n&lt;/code&gt; toggles the nerdTree on the left hand side.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\ew&lt;/code&gt; or &lt;code&gt;:e &amp;lt;filename&amp;gt;&lt;/code&gt; opens the file in current buffer.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\es&lt;/code&gt; or &lt;code&gt;:sp &amp;lt;filename&amp;gt;&lt;/code&gt; opens the file in horizontal split pane.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\ev&lt;/code&gt; or &lt;code&gt;:vsp &amp;lt;filename&amp;gt;&lt;/code&gt; opens the file in vertical split pane.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\et&lt;/code&gt; or &lt;code&gt;:tabe &amp;lt;filename&amp;gt;&lt;/code&gt; opens the file in new tab.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl/cmd + T&lt;/code&gt; opens a fuzzy finder in the root of the project (Sublime Text 2 has this feature too.)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gt&lt;/code&gt; and &lt;code&gt;gT&lt;/code&gt; to change tabs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl+w w&lt;/code&gt; will move the cursor in multiple split pane (if there are).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Concluding&lt;/h3&gt;
+
+&lt;p&gt;I&amp;#39;m making myself comfortable in Vim and hopefully this will be a successful attemp. If you&amp;#39;re sailing on same ship I would love to hear from you.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;P.S: I&amp;#39;ll keep on updating the Shortcuts as I stumble upon them.&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Star Young Entrepreneur of the year 2013</title>
+   <link href="http://bilalbudhani.me/2013/01/13/star-young-entrepreneur-of-the-year-2013/"/>
+   <updated>2013-01-13T11:25:09+05:30</updated>
+   <id>http://bilalbudhani.me/2013/01/13/star-young-entrepreneur-of-the-year-2013</id>
+   <content type="html">&lt;div class=&quot;message&quot;&gt;
+  Expect the unexpected and whenever possible be the unexpected
+&lt;/div&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;ve being awarded as &amp;#39;Star Young Entrepreneur of the year&amp;#39; by Indira India Innovation Summit, Felt so awesome. :) &lt;a href=&quot;http://t.co/RtTJZG6l&quot;&gt;pic.twitter.com/RtTJZG6l&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bilal Budhani (@BilalBudhani) &lt;a href=&quot;https://twitter.com/BilalBudhani/status/289980671575855106&quot;&gt;January 12, 2013&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;As you might know I&amp;#39;m crazy about quotes and I try to correlate my each blog post with them. The above mentioned quote is perfectly fits for this one.&lt;/p&gt;
+
+&lt;p&gt;At this point, I&amp;#39;m very Young Entrepreneur who have just begun my Entrepreneurship journey 3 months back with my idea which I called &amp;#39;AdsHub&amp;#39; also with a vision to create a dent in the universe, I&amp;#39;ll talk about this in detail but in some other blog post. Today, I&amp;#39;m writing this post to share my delightful experience of getting awarded as Star Young Entrepreneur of the year 2013 by 6th Indira India Innovation Summit.&lt;/p&gt;
+
+&lt;p&gt;A month back from now I received an email from the officials of the event stating
+&lt;blockquote&gt;May I request to confirm your presence and graciously agree to accept the award in person at the &amp;ldquo;&lt;b&gt;6th Indira International Innovation Summit 2013&lt;/b&gt;&amp;rdquo;.&lt;/blockquote&gt;
+I couldn&amp;#39;t believe at first that this is something happening with me that too at such an early stage. I controlled my excitement from bursting, didn&amp;#39;t shared this news with anyone with a hypothesis that it may be false or I interpreted it wrong and wrote an email back confirming. After, receiving a positive reply I jumped out of my seat and shouted in crazy manner to all my colleagues informing them about the award.&lt;/p&gt;
+
+&lt;p&gt;Venue was far from my place (Mumbai) i.e Pune, but I was least bothered about the travelling part, Crossing all the hurdles I reached the venue on time. It was a grand event (at least for me) where I was called as &amp;#39;Awardee&amp;#39; first time in my life. Remarkable hospitality and even more remarkable arrangements. After, giving away awards to 3 categories which was before mine. I was called on the stage with other Entrepreneurs who were awarded in the same category. Being in nervous state (which you can gauge by looking in the video below) but, Somehow I manage to utter some words on the stage, Below is my speech (taken from my Samsung galaxy S2 so excuse the quality)&lt;/p&gt;
+
+&lt;h2&gt;Social media updates with photos:&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Youtube:&lt;/code&gt; &lt;a href=&quot;http://www.youtube.com/watch?v=4MXgJ4c2ees&quot;&gt;YouTube link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Facebook:&lt;/code&gt; &lt;a href=&quot;https://www.facebook.com/BilalBudhani/posts/512212842143747&quot;&gt;Facebook update&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Twitter:&lt;/code&gt; &lt;a href=&quot;https://twitter.com/BilalBudhani/status/289980671575855106&quot;&gt;Twitter update&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Concluding the post, It was such a powerful capsule for early Entrepreneur like me that amplified my motivations and made my vision more strong. My year started with something very awesome... I hope this is just the start there are lot more opportunities calling me to tap them and I&amp;#39;ll try my level best to do so.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My experience with in50hrs pune event</title>
+   <link href="http://bilalbudhani.me/2012/12/19/my-experience-with-in50hrs-pune-event/"/>
+   <updated>2012-12-19T09:37:59+05:30</updated>
+   <id>http://bilalbudhani.me/2012/12/19/my-experience-with-in50hrs-pune-event</id>
+   <content type="html">&lt;p&gt;Earlier last week I was checking out &lt;a href=&quot;http://news.ycombinator.com&quot;&gt;Hacker News&lt;/a&gt; (as what I follow religiously). I stumbled upon on an article which took my interest &lt;a href=&quot;http://www.vijayanand.name/2012/12/india-has-a-drought-not-of-investors-but-customers/&quot;&gt;India has a drought - not of Investors, but Customers&lt;/a&gt; it was a great read. As the guy who wrote this was Indian I decided to do some research and get a background who is he and what he do. The result was stunning, He was &lt;a href=&quot;https://twitter.com/vijayanands&quot;&gt;Vijay Anand&lt;/a&gt; a well known Indian Entrepreneur who is behind &lt;a href=&quot;http://thestartupcentre.com&quot;&gt;The Startup Centre&lt;/a&gt; I also came to know that these people have something called &lt;a href=&quot;http://www.in50hrs.com/&quot;&gt;in50hrs&lt;/a&gt;. Since I came to know about this it created an impression on my mind. Fortunately, in50hrs were conducting an event in Pune that too in couple of days after I came to know about it without giving a second thought I registered for the event.&lt;/p&gt;
+
+&lt;p&gt;I was unsure about my idea &lt;a href=&quot;http://adshub.net&quot;&gt;AdsHub&lt;/a&gt; which I planned to work on in the event. However, I somehow convince myself to stick to the plan and so I left from Mumbai for Pune to attend the event with one of my friend who is working on the idea with me.&lt;/p&gt;
+
+&lt;p&gt;We reached Pune (10:30am) way before the specified time for the event all thanks to my friend who was in charge for tickets. After, Struggling a lot to kill the time we successfully arrived at the venue.&lt;/p&gt;
+
+&lt;h2&gt;Game begins&lt;/h2&gt;
+
+&lt;p&gt;There was around 30 people in the auditorium and IdeaSmiths were ready to present their ideas. Almost after 8 ideas we got the chance to present our idea. I could feel the audience interest towards our idea but, my bad presentation skill and nervousness made me think that I missed the opportunity. Hosts of the event then announced that there will be a voting session for the ideas so that everyone gets a team to get started. Each person can vote 3 ideas including their own idea. Me and my friend voted for our idea and 2 other ideas which we felt were good. I was stunned to know we got the 2nd highest voting, &lt;strong&gt;iWish&lt;/strong&gt; by two microsoft employees was leading. We both were surprised and excited at the same time after knowing the results.&lt;/p&gt;
+
+&lt;p&gt;Controlling our excitement and answering almost everyone&amp;#39;s questions which were raised after the presentation. We started our work for the demo which was scheduled after 50 hours. Our goal for the event was to brainstorm ourself by figuring out how we gonna take this idea forward, what are the limitations and more importantly walk out with a clear vision about the idea. There were mentors available at the event to help you plan and build an &lt;a href=&quot;http://en.wikipedia.org/wiki/Minimum_viable_product&quot;&gt;MVP&lt;/a&gt;, These people were extremely friendly, knowledgable, helpful, experienced etc. etc. &lt;em&gt;(limiting myself I hope you got their phenomena)&lt;/em&gt;. Each of them took us one step forward towards our goal mentally and made us believe in ourself &lt;em&gt;(and of course in idea too)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Every iteration on the idea was empowering our vision and &lt;a href=&quot;https://twitter.com/BilalBudhani/status/279902765709398016&quot;&gt;kept us engaged&lt;/a&gt;. Also, we were surrounded by interesting people whom I highly appreciate for listening to my point of view in healthy debets, helping me to draft an about us page and putting efforts to make us believe that Microsoft is a good company :P.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/in50hrs?src=hash&quot;&gt;#in50hrs&lt;/a&gt; hackers trying hard to crack the ideas.. So do I &lt;a href=&quot;https://twitter.com/hashtag/pune?src=hash&quot;&gt;#pune&lt;/a&gt; &lt;a href=&quot;http://t.co/SK8fd1RQ&quot;&gt;pic.twitter.com/SK8fd1RQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bilal Budhani (@BilalBudhani) &lt;a href=&quot;https://twitter.com/BilalBudhani/status/279902765709398016&quot;&gt;December 15, 2012&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After all the efforts, fun and &lt;a href=&quot;https://twitter.com/prats3112/status/280102907511185408&quot;&gt;sleepless nights&lt;/a&gt; it was time for the &lt;a href=&quot;https://twitter.com/_Tripad/status/280288068081184769&quot;&gt;demo&lt;/a&gt; with around ~50 audience and &lt;a href=&quot;https://twitter.com/santoshdawara/status/280554699411828736&quot;&gt;3 judges&lt;/a&gt;. We were placed at 6th. Somehow managing my nervousness I went on the stage and started &lt;a href=&quot;https://twitter.com/prats3112/status/280624679612473344&quot;&gt;my speech&lt;/a&gt;. The response was overwhelming, I could see the curiosity in those eyes which were stuck on me. Demo session was followed by a snacks and networking break, after which we left for our place.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p lang=&quot;und&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/BilalBudhani&quot;&gt;@BilalBudhani&lt;/a&gt; &lt;a href=&quot;http://t.co/n90qgFJB&quot;&gt;pic.twitter.com/n90qgFJB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Banarasia (@prats3112) &lt;a href=&quot;https://twitter.com/prats3112/status/280624679612473344&quot;&gt;December 17, 2012&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h2&gt;Concluding&lt;/h2&gt;
+
+&lt;p&gt;Overall it was a great unforgettable experience for us. We achieved lot more than what we&amp;#39;ve aimed for, also some awesome new friends to take back home. Kudos to &lt;a href=&quot;http://www.in50hrs.com&quot;&gt;in50hrs team&lt;/a&gt; keep rocking :).&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

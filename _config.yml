@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            BilalBudhani
+tagline:          'Bilal Budhani - Blog'
+description:      'Entrepreneurish. ADHD survivor. I break things until they work. Product, Engineering and everything in between <a href="https://twitter.com/Crowdfire" target="_blank">@Crowdfire</a>.'
+url:              http://bilalbudhani.me
+baseurl:          /
+profile_picture_url: '/public/images/bilalbudhani.png'
+
+social:
+  twitter: 'https://twitter.com/bilalbudhani'
+  github: 'https://github.com/bilalbudhani'
+  medium: 'https://medium.com/@bilalbudhani'
+  linkedin: 'https://in.linkedin.com/in/bilalbudhani'
+
+author:
+  name:           'Bilal Budhani'
+  url:            https://twitter.com/BilalBudhani
+
+paginate:         3
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde

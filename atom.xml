@@ -1,205 +1,28 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Bilal Budhani]]></title>
-  <link href="http://blog.bilalbudhani.me/atom.xml" rel="self"/>
-  <link href="http://blog.bilalbudhani.me/"/>
-  <updated>2014-02-03T18:07:14+05:30</updated>
-  <id>http://blog.bilalbudhani.me/</id>
-  <author>
-    <name><![CDATA[BilalBudhani]]></name>
-    <email><![CDATA[bilalbudhani@gmail.com]]></email>
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}</id>
+ <author>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
 
-  
-  <entry>
-    <title type="html"><![CDATA[Freshers guide to get a tech job in startups]]></title>
-    <link href="http://blog.bilalbudhani.me/2014/02/02/freshers-guide-to-get-a-tech-job-in-startups/"/>
-    <updated>2014-02-02T14:40:00+05:30</updated>
-    <id>http://blog.bilalbudhani.me/2014/02/02/freshers-guide-to-get-a-tech-job-in-startups</id>
-    <content type="html"><![CDATA[<p>There has been spike in no. of tech startups in the ecosystem since past few years, which is certainly a good sign but, Unfortunately there aren&rsquo;t enough good developers available to take this opportunity especially in Mumbai. Besides, We&rsquo;ve talented freshers coming out but they&rsquo;ve no idea what are the requirement of startups and how do they earn a job.</p>
-
-<p>I&rsquo;ve complied some points from my experience in working with startups. Following these will not only cultivate an urge for being a good developer but also give some brownie points in startups hiring process.</p>
-
-<!-- more -->
-
-
-<p><strong>No Java or .Net:</strong> Startups are scared of these two languages especially Java. Let me tell you why, These languages comes with huge learning cost, maintenance, licensing and they&rsquo;re relatively slow due to their enterprisy nature which makes them evil for newly started companies. On the other hand, These are not developer friendly languages. So, just move on.</p>
-
-<p><strong>Linux:</strong> Good developers loves and use good tools. Linux inarguably best tool available and you must start loving it. Infact, start using it on daily basis. Leave that sloppy and fancy Windows behind, it ain&rsquo;t gonna help you anytime soon.</p>
-
-<p><strong>Initial choice of language:</strong> Obviously not Java or .Net. Look for a language which has a less learning curve and developer friendly. I would suggest to go with <a href="https://www.ruby-lang.org/en/">Ruby</a>, <a href="http://www.python.org/">Python</a> or <a href="http://www.php.net/">PHP</a>. They&rsquo;re universally supported and more importantly they&rsquo;re widely accepted in startups. Don&rsquo;t get in to this &ldquo;what-should-i-learn&rdquo; mentality at the moment just pick any of them and LEARN Dammit!</p>
-
-<p><strong>Books / eBooks:</strong> Books are inevitable, no matter how hard you want to avoid them. It took me a while to admit but eventually I became a fan. Find some nice tech related books and make sure you not only read them but you also follow their advice. I strongly advice &ldquo;The Pragmatic Programmer&rdquo; to start with, it will practically change your approach towards the problem as a programmer.</p>
-
-<p><strong>Meetups / Hackathons:</strong> Don&rsquo;t just be a passive learner and stick to your computer. Meeting like minded people and interacting with them is equally important. Find out tech / startups meetups scheduled and attend them without fail. These meetups will help you find your next job more rapidly then any other job listing sites. We (I and other fellow Rubyist) try to organise monthly Ruby meetup named as <a href="https://groups.google.com/forum/#!forum/mrug">Mumbai Ruby Group</a>. Join us if you interested.</p>
-
-<p><strong>Follow Techies:</strong> Are you on Twitter? or Quora? or StackOverflow? No? You&rsquo;ve a problem there. Start using these sites actively. Follow local techies, national or international programming rockstars and tech related discussions. This will not only keep you motivated but also gives you enormous amount of bleeding edge knowledge.</p>
-
-<p><strong>Find a pet project:</strong> Never start learning a programming language from their documentation you will end up no where. Find a sweet small little project and then think about how would you accomplish it your language of choice. It can be automating your file download, email auto responder etc. keep it really small, simple and personal. Target yourself, it should be something you want to use.</p>
-
-<p><strong>Github:</strong> <a href="https://www.github.com">Github</a> is haven for developers. I would like you to watch this video <a href="https://www.youtube.com/watch?v=l_T3XEgXl14">Github is changing the world</a>. Open source your pet project and share them with others. A working programme is lot more better than a fancy resume.</p>
-
-<p>I would like to hear feedbacks from you on this or if you want some personal advice feel free to reach out to me on twitter.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How was my 2013 and whats next]]></title>
-    <link href="http://blog.bilalbudhani.me/2014/01/05/how-was-my-2013-and-whats-next/"/>
-    <updated>2014-01-05T18:17:00+05:30</updated>
-    <id>http://blog.bilalbudhani.me/2014/01/05/how-was-my-2013-and-whats-next</id>
-    <content type="html"><![CDATA[<p>What an amazing year playa! I&rsquo;m feeling amazed at the time of writing this post. It makes me really happy to relive those moments while expressing them in words here. From being youngest entrepreneur of the year to learning new paradigms. Every challenge which hit me last year appeard hard at initial attempt or even at subsciquent attempts but, &ldquo;Lemme try this once more&rdquo; kept me there hanging.</p>
-
-<!-- more -->
-
-
-<p>I did explore a lot of different things last year. Startups, traveling, new programming languages, new skills and even reading and writing. I got a amazon kindle at the very end of the year, I should have ordered it way before nevertheless, I carry it along with me all the time possible and I make sure to read books. I&rsquo;m also pushing myself to regularly write something coz I really want to improve on that.</p>
-
-<p>I want to mention about my decisions made last year, lot of them were not fullproof or didn&rsquo;t came with any safety advice. I just made them at the last moment regardlessly coz I believe in them. Ironically, the last moment or those unplanned decisions turned out as a life changer compared to those planned ones which were based on all sorts of metrics, <em>how not to fail</em> and <em>play safe</em> etc.</p>
-
-<h2>So what&rsquo;s next&hellip;</h2>
-
-<p>I want to keep experiementing with the opportunities out there and keep myself engaged in the process of learning, reading, writing and ofcourse meeting new like minded people.</p>
-
-<p>I&rsquo;ve a bad habit of leaving goals in the middle which I started passionately whether its a blog post lying in my drafts, Startup ideas, pet projects or some interesting thing which I wanted to complete. I definitely have to learn how to focus and be in that mindset until I finish them.</p>
-
-<p>I can&rsquo;t end this post without mentioning my afire for Entrepreneurship and how eagar I&rsquo;m to get something out there used by real people. I do want to try out some new ideas I&rsquo;ve and I feel they might result good.</p>
-
-<p>I want to make this year count more than the last and wanna play some more risky bets.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[3 steps to Vim from Sublime Text 2]]></title>
-    <link href="http://blog.bilalbudhani.me/2013/08/30/3-steps-to-vim-from-sublime-text-2/"/>
-    <updated>2013-08-30T16:05:00+05:30</updated>
-    <id>http://blog.bilalbudhani.me/2013/08/30/3-steps-to-vim-from-sublime-text-2</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve been using Sublime Text 2 since quite a while now and really enjoy spending my most of the time playing around code with it. Since I&rsquo;ve a PHP background (where I used to code on Netbeans) I was not motivated to use use on Terminal based editors. However, I gave a try to switch to Vim few months back but the situation was too much demanding at that time. I was learning couple of other new technologies where I didn&rsquo;t wanted them to suffer/compromise and avoided one more constrain on my brain to use Vim. <!-- more --> So, I stood beside Sublime Text 2 and it continued to be my IDE in that struggling period. Until recently, I came across <a href="http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/">this great article</a> by <a href="https://twitter.com/wycats">Yehuda Katz</a> which convinced me to give Vim another good try.</p>
-
-<p>This is the basic setup I did to get started using Vim (on MacOSX)</p>
-
-<h3>Setting up MacVim</h3>
-
-<ul>
-<li>Install macvim using homebrew.</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>brew install macvim</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>After installing macvim, I installed <a href="https://github.com/carlhuda/janus">janus-bootstrap</a> which automatically installs and configures required plugins.</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>curl -Lo- https://bit.ly/janus-bootstrap | bash</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>(Optional) Setting up a nice colorscheme is important. You should checkout <a href="http://ethanschoonover.com/solarized">solarized</a> it has elegant colors which makes me feel nice while working. Fortunately, Janus has solarized built-in I just activated it. (BTW, my iTerm2 also has this same colorscheme)</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>echo 'color solarized'  &gt;&gt; ~/.vimrc.after</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>Square has open sourced their in house vim configuration more info <a href="http://corner.squareup.com/2013/08/fly-vim-first-class.html">here</a></li>
-</ul>
-
-
-<p><strong>Bingo!</strong> I&rsquo;m done with configuring vim with all the essential plugins out there within 3 steps. But, Not to forget Vim is not done until you know some required shortcuts. I&rsquo;ve compiled the list for my quick reference. Ofcourse, They&rsquo;re available on the internet too.</p>
-
-<h3>List of Not to forget Vim Shortcuts</h3>
-
-<ul>
-<li><code>:q!</code> quits the file and discard the changes.</li>
-<li><code>:wq</code> saves changes and quits the current file.</li>
-<li><code>\n</code> toggles the nerdTree on the left hand side.</li>
-<li><code>\ew</code> or <code>:e &lt;filename&gt;</code> opens the file in current buffer.</li>
-<li><code>\es</code> or <code>:sp &lt;filename&gt;</code> opens the file in horizontal split pane.</li>
-<li><code>\ev</code> or <code>:vsp &lt;filename&gt;</code> opens the file in vertical split pane.</li>
-<li><code>\et</code> or <code>:tabe &lt;filename&gt;</code> opens the file in new tab.</li>
-<li><code>ctrl/cmd + T</code> opens a fuzzy finder in the root of the project (Sublime Text 2 has this feature too.)</li>
-<li><code>gt</code> and <code>gT</code> to change tabs.</li>
-<li><code>ctrl+w w</code> will move the cursor in multiple split pane (if there are).</li>
-</ul>
-
-
-<h3>Concluding</h3>
-
-<p>I&rsquo;m making myself comfortable in Vim and hopefully this will be a successful attemp. If you&rsquo;re sailing on same ship I would love to hear from you.</p>
-
-<p><em>P.S: I&rsquo;ll keep on updating the Shortcuts as I stumble upon them.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Star Young Entrepreneur of the year 2013]]></title>
-    <link href="http://blog.bilalbudhani.me/2013/01/13/star-young-entrepreneur-of-the-year-2013/"/>
-    <updated>2013-01-13T11:25:09+05:30</updated>
-    <id>http://blog.bilalbudhani.me/2013/01/13/star-young-entrepreneur-of-the-year-2013</id>
-    <content type="html"><![CDATA[<blockquote><p>Expect the unexpected and whenever possible be the unexpected</p></blockquote>
-
-<p>As you might know I&rsquo;m crazy about quotes and I try to&nbsp;correlate my each blog post with them. The above mentioned quote is perfectly fits for this one.</p>
-
-<!-- more -->
-
-
-<p>At this point, I&rsquo;m very Young Entrepreneur who have just begun my Entrepreneurship journey 3 months back with my idea which I called &lsquo;AdsHub&rsquo; also with a vision to create a dent in the universe, I&rsquo;ll talk about this in detail but in some other blog post. Today, I&rsquo;m writing this post to share my&nbsp;delightful experience of getting awarded as Star Young Entrepreneur of the year 2013 by 6th Indira India Innovation Summit.</p>
-
-<p>A month back from now I received an email from the officials of the event stating</p>
-
-<blockquote>May I request to confirm your presence and graciously agree to accept the award in person at the &ldquo;<b>6th Indira International Innovation Summit 2013</b>&rdquo;.</blockquote>
-
-
-<p>I couldn&rsquo;t believe at first that this is something happening with me that too at such an early stage. I controlled my excitement from bursting, didn&rsquo;t shared this news with anyone with a hypothesis that it may be false or I interpreted it wrong&nbsp; and wrote an email back confirming. After, receiving a positive reply I jumped out of my seat and shouted in crazy manner to all my&nbsp;colleagues informing them about the award.</p>
-
-<p>Venue was far from my place (Mumbai) i.e Pune, but I was least bothered about the travelling part, Crossing all the hurdles I reached the venue on time. It was a grand event (at least for me) where I was called as &lsquo;Awardee&rsquo; first time in my life. Remarkable hospitality and even more remarkable arrangements. After, giving away awards to 3 categories which was before mine. I was called on the stage with other Entrepreneurs who were awarded in the same category. Being in nervous state (which you can gauge by looking in the video below) but, Somehow I manage to utter some words on the stage, Below is my speech (taken from my Samsung galaxy S2 so excuse the quality)</p>
-
-<h2>Social media updates with photos:</h2>
-
-<p><code>Youtube:</code> <a href="http://www.youtube.com/watch?v=4MXgJ4c2ees">YouTube link</a></p>
-
-<p><code>Facebook:</code> <a href="https://www.facebook.com/BilalBudhani/posts/512212842143747">Facebook update</a></p>
-
-<p><code>Twitter:</code> <a href="https://twitter.com/BilalBudhani/status/289980671575855106">Twitter update</a></p>
-
-<p>Concluding the post, It was such a powerful capsule for early Entrepreneur like me that amplified my motivations and made my vision more strong. My year started with something very awesome&hellip; I hope this is just the start there are lot more opportunities calling me to tap them and I&rsquo;ll try my level best to do so.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My experience with in50hrs pune event]]></title>
-    <link href="http://blog.bilalbudhani.me/2012/12/19/my-experience-with-in50hrs-pune-event/"/>
-    <updated>2012-12-19T09:37:59+05:30</updated>
-    <id>http://blog.bilalbudhani.me/2012/12/19/my-experience-with-in50hrs-pune-event</id>
-    <content type="html"><![CDATA[<p>Earlier last week I was checking out <a href="http://news.ycombinator.com">Hacker News</a> (as what I follow religiously). I stumbled upon on an article which took my interest <a href="http://www.vijayanand.name/2012/12/india-has-a-drought-not-of-investors-but-customers/">India has a drought &ndash; not of Investors, but Customers</a> it was a great read. As the guy who wrote this was Indian I decided to do some research and get a background who is he and what he do. The result was stunning, He was <a href="https://twitter.com/vijayanands">Vijay Anand</a> a well known Indian Entrepreneur who is behind <a href="http://thestartupcentre.com">The Startup Centre</a> I also came to know that these people have something called <a href="http://www.in50hrs.com/">in50hrs</a>. <!-- more --> Since I came to know about this it created an impression on my mind. Fortunately, in50hrs were conducting an event in Pune that too in couple of days after I came to know about it without giving a second thought I registered for the event.</p>
-
-<p>I was unsure about my idea <a href="http://adshub.net">AdsHub</a> which I planned to work on in the event. However, I somehow convince myself to stick to the plan and so I left from Mumbai for Pune to attend the event with one of my friend who is working on the idea with me.</p>
-
-<p>We reached Pune (10:30am) way before the specified time for the event all thanks to my friend who was in charge for tickets. After, Struggling a lot to kill the time we successfully arrived at the venue.</p>
-
-<h2>Game begins</h2>
-
-<p>There was around 30 people in the auditorium and IdeaSmiths were ready to present their ideas. Almost after 8 ideas we got the chance to present our idea. I could feel the audience interest towards our idea but, my bad presentation skill and nervousness made me think that I missed the opportunity. Hosts of the event then announced that there will be a voting session for the ideas so that everyone gets a team to get started. Each person can vote 3 ideas including their own idea. Me and my friend voted for our idea and 2 other ideas which we felt were good. I was stunned to know we got the 2nd highest voting, <strong>iWish</strong> by two microsoft employees was leading. We both were&nbsp;surprised and excited at the same time after knowing the results.</p>
-
-<p>Controlling our excitement and answering almost everyone&rsquo;s questions which were raised after the presentation. We started our work for the demo which was scheduled after 50 hours. Our goal for the event was to brainstorm ourself by figuring out how we gonna take this idea forward, what are the limitations and more importantly walk out with a clear vision about the idea. There were mentors available at the event to help you plan and build an <a href="http://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a>, These people were extremely friendly, knowledgable, helpful, experienced etc. etc. <em>(limiting myself I hope you got their phenomena)</em>. Each of them took us one step forward towards our goal mentally and made us believe in ourself <em>(and of course in idea too)</em>.</p>
-
-<p>Every iteration on the idea was empowering our vision and <a href="https://twitter.com/BilalBudhani/status/279902765709398016">kept us engaged</a>. Also, we were surrounded by interesting people whom I highly appreciate for listening to my point of view in healthy debets, helping me to draft an about us page and putting efforts to make us believe that Microsoft is a good company :P.</p>
-
-<p>After all the efforts, fun and <a href="https://twitter.com/prats3112/status/280102907511185408">sleepless nights</a> it was time for the <a href="https://twitter.com/_Tripad/status/280288068081184769">demo</a> with around ~50 audience and <a href="https://twitter.com/santoshdawara/status/280554699411828736">3 judges</a>. We were placed at 6th. Somehow managing my nervousness I went on the stage and started <a href="https://twitter.com/prats3112/status/280624679612473344">my speech</a>. The response was overwhelming, I could see the curiosity in those eyes which were stuck on me. Demo session was followed by a snacks and networking break, after which we left for our place.</p>
-
-<h2>Concluding</h2>
-
-<p>Overall it was a great unforgettable experience for us. We achieved lot more than what we&rsquo;ve aimed for, also some awesome new friends to take back home. Kudos to <a href="http://www.in50hrs.com">in50hrs team</a> keep rocking :).</p>
-]]></content>
-  </entry>
-  
 </feed>
