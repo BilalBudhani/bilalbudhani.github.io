@@ -21,3 +21,5 @@ One of the mistake I’ve seen new devs in Ember make is they still think in “
 Good luck. Ping me on [@BilalBudhani](http://twitter.com/BilalBudhani) if you’ve any questions for me.
 
 P.S: I wrote a small plugin on Ember-CLI for oh-my-zsh [here](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ember-cli).
+
+EDIT: If you're interested in learning EmberJS or want to get a brief overview about the framework then, I would strongly suggest [Ember 101 EBook](https://leanpub.com/ember-cli-101) by [Adolfo Builes](https://twitter.com/abuiles). I've personally started with this one and it was really helpful.

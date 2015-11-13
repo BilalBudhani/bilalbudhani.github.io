@@ -4,7 +4,7 @@
  <title>BilalBudhani</title>
  <link href="http://bilalbudhani.me/atom.xml" rel="self"/>
  <link href="http://bilalbudhani.me/"/>
- <updated>2015-11-11T15:00:15+05:30</updated>
+ <updated>2015-11-13T12:45:34+05:30</updated>
  <id>http://bilalbudhani.me</id>
  <author>
    <name>Bilal Budhani</name>
@@ -36,6 +36,8 @@
 &lt;p&gt;Good luck. Ping me on &lt;a href=&quot;http://twitter.com/BilalBudhani&quot;&gt;@BilalBudhani&lt;/a&gt; if you’ve any questions for me.&lt;/p&gt;
 
 &lt;p&gt;P.S: I wrote a small plugin on Ember-CLI for oh-my-zsh &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ember-cli&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;EDIT: If you&amp;#39;re interested in learning EmberJS or want to get a brief overview about the framework then, I would strongly suggest &lt;a href=&quot;https://leanpub.com/ember-cli-101&quot;&gt;Ember 101 EBook&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/abuiles&quot;&gt;Adolfo Builes&lt;/a&gt;. I&amp;#39;ve personally started with this one and it was really helpful.&lt;/p&gt;
 </content>
  </entry>
  
