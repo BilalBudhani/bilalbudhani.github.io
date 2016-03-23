@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            BilalBudhani
 tagline:          'Bilal Budhani - Blog'
-description:      'Entrepreneurish. ADHD survivor. I break things until they work. Product, Engineering and everything in between <a href="https://twitter.com/Crowdfire" target="_blank">@Crowdfire</a>.'
+description:      'Entrepreneurish. ADHD survivor. I break things until they work. Product, Engineering and everything in between.'
 url:              http://bilalbudhani.me
 baseurl:          /
 profile_picture_url: '/public/images/bilalbudhani.png'
